@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: `#0061b7`,
         alignItems: `center`,
         textTransform: `capitalize`,
-        width: '50%',
+        width: '60%',
         '&:hover': {
             backgroundColor: `#0178ff`,
             opacity: '.8',
@@ -42,7 +42,6 @@ const StyledButton = (props) => {
                 startIcon={props.icon}
                 onClick={props.onClick}
                 disabled={props.disabled}
-                fullWidth={props.fullWidth}
             >
                 {text}
             </Button> 

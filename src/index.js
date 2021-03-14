@@ -9,8 +9,6 @@ import store from './store';
 import HttpsRedirect from 'react-https-redirect';
 import ScrollToTop from "./utils/scrollToTop";
 
-window.store = store;
-
 ReactDOM.render(
   <Provider store={store}>
     <HttpsRedirect>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { makeStyles,withStyles, fade } from '@material-ui/core/styles';
+import { makeStyles, withStyles, fade } from '@material-ui/core/styles';
 
-import {FormControl, InputBase } from '@material-ui/core';
+import { FormControl, InputBase } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -24,11 +24,11 @@ const StyledInput = withStyles((theme) => ({
     '&:-webkit-autofill': {
       '-webkit-box-shadow': '0 0 0px 1000px white inset'
     },
-    '&:-webkit-autofill:focus' : {
+    '&:-webkit-autofill:focus': {
       '-webkit-box-shadow': '0 0 0 50px white inset',
       '-webkit-text-fill-color': '#040f33'
     },
-    '-webkit-text-fill-color': '#040f33 !important'
+    '-webkit-text-fill-color': '#040f33 !important',
   },
   adornedEnd: {
     padding: '10px',
@@ -42,23 +42,23 @@ const StyledInput = withStyles((theme) => ({
 
 const StyledInputWithIcon = (props) => {
   const classes = useStyles();
-    return(
-      <div className={classes.container}>
-        <FormControl style={{width : props.width}}>
-          <StyledInput 
-            placeholder={props.placeholder} 
-            id={props.id} 
-            name={props.name}
-            type={props.type}
-            endAdornment={props.icon}
-            // value={props.value}
-            // onChange={props.onChange}
-            required={props.required}
-            error={props.error}
-          />
-        </FormControl>
-      </div>
-    )
+  return (
+    <div className={classes.container}>
+      <FormControl style={{ width: props.width }}>
+        <StyledInput
+          placeholder={props.placeholder}
+          id={props.id}
+          name={props.name}
+          type={props.type}
+          endAdornment={props.icon}
+          value={props.value}
+          onChange={props.onChange}
+          required={props.required}
+          error={props.error}
+        />
+      </FormControl>
+    </div>
+  )
 }
 
 export default StyledInputWithIcon
