@@ -8,3 +8,23 @@ body{
   width: 100%;
   height: 100%;
 }
+
+@font-face {
+  font-family: 'ProductSans-Bold.ttf';
+  src: local('ProductSans-Bold.ttf'), url(./fonts/ProductSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ProductSans-Regular.ttf';
+  src: local('ProductSans-Regular.ttf'), url(./fonts/ProductSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Geeza-Pro-Regular.ttf';
+  src: local('Geeza-Pro-Regular.ttf'), url(./fonts/Geeza-Pro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Waseem.ttf';
+  src: local('Waseem.ttf'), url(./fonts/Waseem.ttf) format('truetype');
+}

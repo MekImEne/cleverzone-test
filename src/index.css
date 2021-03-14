@@ -1,27 +1,27 @@
 body {
   margin: 0;
-  font-family: 'ProductSans-Bold', 'ProductSans-Regular', 'Geeza-Pro-Regular', 'Waseem'
-    sans-serif;
+  font-family: 'GoogleSans', 'GeezaPro', 'Waseem' ,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
-  font-family: 'ProductSans-Bold.ttf';
-  src: local('ProductSans-Bold.ttf'), url(./fonts/ProductSans-Bold.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'ProductSans-Regular.ttf';
+  font-family: 'GoogleSans';
   src: local('ProductSans-Regular.ttf'), url(./fonts/ProductSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Geeza-Pro-Regular.ttf';
+  font-family: 'GeezaPro';
   src: local('Geeza-Pro-Regular.ttf'), url(./fonts/Geeza-Pro-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Waseem.ttf';
+  font-family: 'Waseem';
   src: local('Waseem.ttf'), url(./fonts/Waseem.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd-Medium.ttf'), url(./fonts/CircularStd-Medium.ttf) format('truetype');
+}
+
