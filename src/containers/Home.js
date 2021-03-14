@@ -3,7 +3,7 @@ import MainNavbar from '../components/MainNavbar';
 import {Grid} from '@material-ui/core';
 import MainContainer from '../components/MainContainer';
 import SideContainer from '../components/SideContainer';
-
+import ConfirmLogout from '../components/ConfirmLogout/index2';
 
 const Home = (props) => {
     document.title = 'Home - Cleverzone test';
@@ -18,6 +18,7 @@ const Home = (props) => {
                     <SideContainer/>
                 </Grid>
             </Grid>
+            <ConfirmLogout />
         </>
     );
 }
