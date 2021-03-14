@@ -41,8 +41,8 @@ export default function ConfirmLogout(props) {
         localStorage.clear();
         history.push("/login");
     };
-
-    useKeyboardEvent('l' || 'L', () => {
+    const key = 'l';
+    useKeyboardEvent(key, () => {
         setOpen(true);
     })
     return (
