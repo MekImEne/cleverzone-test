@@ -7,6 +7,9 @@ import logo from "../../assets/footerLogo.jpg";
 const useStyles = makeStyles((theme) => ({
     container: {
         width: 'auto',
+        [theme.breakpoints.down('sm')]: {
+            marginBottom: theme.spacing(5),
+        },
     },
     paperStyle: {
         backgroundColor: '#0061b7',
@@ -14,14 +17,17 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         marginTop: theme.spacing(2),
         padding: theme.spacing(6),
-        maxHeight: 740
+        maxHeight: 740,
+        [theme.breakpoints.down('sm')]: {
+            paddingBottom: theme.spacing(10),
+        },
     },
     root: {
         display: 'flex',
         flexDirection: 'row',
         [theme.breakpoints.down('sm')]: {
             flexDirection: 'column',
-         },
+        },
     },
     title: {
         fontFamily: 'GoogleSans',
